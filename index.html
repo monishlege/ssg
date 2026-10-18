@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="kn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shri Sai Ganga Hospital in Chikkanayakanahalli offers round-the-clock emergency support, expert physicians, and patient-first care."
+    />
+    <meta name="theme-color" content="#0056b3" />
+    <title>Shri Sai Ganga Hospital | Care, Around the Clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="emergency-strip">
+        <div class="container emergency-inner">
+          <p><span class="pulse-dot" aria-hidden="true"></span> 24/7 Emergency Care</p>
+          <a href="tel:+919480787652" aria-label="Call the emergency hotline at +91 94807 87652">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.3.55 3.6.55a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.19 2.46.55 3.58a1 1 0 0 1-.25 1.01z"/></svg>
+            +91 94807 87652
+          </a>
+          <span class="emergency-note">Immediate help, any time</span>
+        </div>
+      </div>
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Shri Sai Ganga Hospital home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M20 6h8v14h14v8H28v14h-8V28H6v-8h14z"/><path class="brand-wave" d="M8 36c4-3 8-3 12 0s8 3 12 0 6-3 9-1v6H8z"/></svg>
+          </span>
+          <span class="brand-name">Shri Sai Ganga<span>HOSPITAL</span></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+          <a href="#home" data-i18n="navHome">Home</a>
+          <a href="#about" data-i18n="navAbout">About Us</a>
+          <a href="#specialties" data-i18n="navSpecialties">Specialties</a>
+          <a href="#contact" data-i18n="navContact">Contact Us</a>
+          <label class="language-picker">
+            <span class="sr-only">Select language</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <select id="language-select" aria-label="Select language">
+              <option value="en">EN</option>
+              <option value="kn" selected>ಕನ್ನಡ</option>
+              <option value="te">తెలుగు</option>
+            </select>
+          </label>
+          <a class="button button-small nav-appointment" href="#appointment" data-i18n="navBook">Book Appointment</a>
+        </nav>
+      </div>
+    </header>
+
+    <aside class="accessibility-panel" aria-label="Accessibility settings">
+      <p>Accessibility</p>
+      <div class="accessibility-controls">
+        <button type="button" id="text-smaller" aria-label="Decrease page text size">A−</button>
+        <button type="button" id="text-larger" aria-label="Increase page text size">A+</button>
+        <button type="button" id="contrast-toggle" aria-pressed="false">High contrast</button>
+      </div>
+    </aside>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="hero-grid container">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">YOUR HEALTH, OUR PRIORITY</span></div>
+            <h1><span data-i18n="heroTitleStart">Advanced Healthcare,</span><br /><span class="hero-title-emphasis" data-i18n="heroTitleEmphasis">Compassionate Care</span> <span data-i18n="heroTitleEnd">24/7</span></h1>
+            <p class="hero-description" data-i18n="heroDescription">Serving the Chikkanayakanahalli community with round-the-clock emergency medical support, expert physicians, and patient-first treatments.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#appointment">
+                <span data-i18n="heroBook">Book an Appointment Online</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+              </a>
+              <a class="button button-outline" href="https://www.google.com/maps/dir/?api=1&destination=Near+Sai+Creators%2C+Chikkanayakanahalli%2C+Tumkur%2C+Karnataka+572214&hl=kn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                <span data-i18n="heroDirections">Get Directions</span>
+              </a>
+            </div>
+            <form class="voice-search" id="voice-search">
+              <label for="voice-query">Search symptoms or departments</label>
+              <div class="voice-search-controls">
+                <input id="voice-query" name="query" type="search" placeholder="e.g. fever, child care, injury" autocomplete="off" />
+                <button class="button button-primary" type="submit" aria-label="Search hospital departments">Search</button>
+                <button class="button button-outline voice-button" id="voice-button" type="button" aria-label="Search by voice in the selected language">Speak</button>
+              </div>
+              <p id="voice-status" class="voice-status" aria-live="polite" role="status">Voice search uses your browser’s speech recognition, when available.</p>
+            </form>
+            <div class="hero-trust">
+              <div class="trust-avatars" aria-hidden="true"><span>SG</span><span>24</span><span>+</span></div>
+              <p><strong>Here for your family</strong><br />Trusted care, day and night</p>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image-frame">
+              <img
+                src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1000&q=85"
+                alt="Medical professional providing attentive patient care"
+              />
+              <div class="image-tint"></div>
+              <div class="hero-image-caption">
+                <span class="caption-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-4.4-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.6-8 11-8 11Z"/><path d="M8.5 12h2l1-2.5 1.5 5 1-2.5h1.5"/></svg></span>
+                <span><strong>Care that never sleeps</strong><small>Open 24 hours · 7 days a week</small></span>
+              </div>
+            </div>
+            <div class="floating-card experience-card">
+              <span class="floating-icon teal-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg></span>
+              <span><strong>Emergency-ready</strong><small>Always by your side</small></span>
+            </div>
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+          </div>
+        </div>
+        <div class="hero-bottom container">
+          <span>CHIKKANAYAKANAHALLI, KARNATAKA</span>
+          <span class="hero-bottom-line"></span>
+          <span>CARE WITH COMPASSION <span class="heart">♥</span></span>
+        </div>
+      </section>
+
+      <section class="feature-section" aria-label="Hospital amenities">
+        <div class="container feature-grid">
+          <article class="feature-item">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m-9-9h18"/><circle cx="12" cy="12" r="9"/></svg></span>
+            <div><h2>24/7 Emergency &amp; ICU</h2><p>Round-the-clock critical care</p></div>
+          </article>
+          <article class="feature-item">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><path d="M10 22v-6l-2-3 2-5h5l2 5-2 3v6M7 13h10"/></svg></span>
+            <div><h2>Accessible by Design</h2><p>Wheelchair access &amp; parking</p></div>
+          </article>
+          <article class="feature-item">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V7l8-4 8 4v13M8 20v-6h8v6M12 3v5m-2.5-2.5h5"/></svg></span>
+            <div><h2>Multi-Specialty Clinics</h2><p>Care across key specialties</p></div>
+          </article>
+          <article class="feature-item">
+            <span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2m6-10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm10 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+            <div><h2>People Who Listen</h2><p>Skilled, multilingual care team</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about">
+        <div class="container about-grid">
+          <div class="about-visual">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85" alt="Healthcare professional discussing a care plan with a patient" loading="lazy" />
+            <div class="about-note"><span class="note-mark">“</span><p>Every patient deserves<br />to feel heard and cared for.</p><small>OUR PROMISE TO YOU</small></div>
+            <span class="about-visual-dot" aria-hidden="true"></span>
+          </div>
+          <div class="about-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span>ABOUT SHRI SAI GANGA</div>
+            <h2>Quality care, close<br />to <span>home.</span></h2>
+            <p class="section-description">At Shri Sai Ganga Hospital, we believe good healthcare begins with listening. We’re here for our Chikkanayakanahalli neighbors with dependable emergency support, thoughtful treatment, and a team that puts people first.</p>
+            <div class="about-points">
+              <div><span class="check-mark">✓</span><span><strong>Always available</strong><small>Emergency care, 24 hours a day</small></span></div>
+              <div><span class="check-mark">✓</span><span><strong>Care with clarity</strong><small>Approachable doctors and clear guidance</small></span></div>
+              <div><span class="check-mark">✓</span><span><strong>Rooted in our community</strong><small>Serving families across Tumkur district</small></span></div>
+            </div>
+            <a class="text-link" href="#contact">Visit our hospital <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="specialties-section section-pad" id="specialties">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-line"></span>DEPARTMENTS &amp; SERVICES</div>
+              <h2>Find the right<br class="mobile-break" /> <span>care for you.</span></h2>
+            </div>
+            <p>Choose a department to start an appointment request. Please call us to confirm the doctor on duty, qualifications, and current OPD schedule.</p>
+          </div>
+          <div class="specialty-grid">
+            <article class="specialty-card">
+              <span class="specialty-number">01</span><span class="specialty-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18m-9-9h18"/><circle cx="12" cy="12" r="9"/></svg></span>
+              <h3>General Medicine</h3><p>Personalized support for everyday health, ongoing conditions, and preventive care.</p><a href="#appointment" data-department="General Medicine" aria-label="Request an appointment with General Medicine">Request appointment <span>→</span></a>
+            </article>
+            <article class="specialty-card">
+              <span class="specialty-number">02</span><span class="specialty-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 6-7 10-7 10Z"/><path d="M9 12h6m-3-3v6"/></svg></span>
+              <h3>Pediatrics</h3><p>Gentle, reassuring medical attention to help little ones feel their best.</p><a href="#appointment" data-department="Pediatrics" aria-label="Request an appointment with Pediatrics">Request appointment <span>→</span></a>
+            </article>
+            <article class="specialty-card">
+              <span class="specialty-number">03</span><span class="specialty-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3v6a4 4 0 0 0 8 0V3m-4 10v8m-5 0h10M7 3h2m6 0h2"/></svg></span>
+              <h3>Orthopedics</h3><p>Assessment and care for bone, joint, and muscle concerns, big and small.</p><a href="#appointment" data-department="Orthopedics" aria-label="Request an appointment with Orthopedics">Request appointment <span>→</span></a>
+            </article>
+            <article class="specialty-card">
+              <span class="specialty-number">04</span><span class="specialty-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+              <h3>Acute Illness Care</h3><p>Timely evaluation and recovery support for illnesses such as dengue and typhoid.</p><a href="#appointment" data-department="Acute Illness Care" aria-label="Request an appointment for Acute Illness Care">Request appointment <span>→</span></a>
+            </article>
+            <article class="specialty-card">
+              <span class="specialty-number">05</span><span class="specialty-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-7"/><circle cx="8" cy="15" r="1"/><circle cx="11" cy="11" r="1"/><circle cx="14" cy="13" r="1"/></svg></span>
+              <h3>Diagnostics</h3><p>Helpful diagnostic services to support informed decisions and your care plan.</p><a href="#appointment" data-department="Diagnostics" aria-label="Request a Diagnostics appointment">Request appointment <span>→</span></a>
+            </article>
+          </div>
+          <div class="specialty-footnote"><span class="tiny-cross" aria-hidden="true">+</span> Not sure where to start? <a href="#triage">Try the care guide</a> or <a href="tel:+919480787652">call our care team</a> to confirm current doctor availability and OPD timings.</div>
+        </div>
+      </section>
+
+      <section class="triage-section section-pad" id="triage" aria-labelledby="triage-title">
+        <div class="container triage-grid">
+          <div class="triage-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span>QUICK CARE GUIDE</div>
+            <h2 id="triage-title">Not sure where<br />to <span>start?</span></h2>
+            <p>This guide can point you toward a department. It is not a diagnosis and cannot assess emergencies.</p>
+            <p class="triage-emergency"><strong>Severe chest pain, trouble breathing, heavy bleeding, loss of consciousness, or a serious injury?</strong> Call our emergency line now.</p>
+            <a class="button button-primary" href="tel:+919480787652" aria-label="Call the 24-hour emergency line at +91 94807 87652">Call emergency · +91 94807 87652</a>
+          </div>
+          <div class="triage-card">
+            <fieldset>
+              <legend>What kind of care are you looking for?</legend>
+              <label><input type="radio" name="care-guide" value="General Medicine" /> Fever, illness, or a general health concern</label>
+              <label><input type="radio" name="care-guide" value="General Medicine" /> Chest discomfort that is not severe or sudden</label>
+              <label><input type="radio" name="care-guide" value="Emergency Care" /> Severe or sudden chest pain, or trouble breathing</label>
+              <label><input type="radio" name="care-guide" value="Emergency Care" /> A recent accident or significant injury</label>
+              <label><input type="radio" name="care-guide" value="Pediatrics" /> A health concern for a child</label>
+              <label><input type="radio" name="care-guide" value="Orthopedics" /> Bone, joint, or muscle pain</label>
+              <label><input type="radio" name="care-guide" value="Acute Illness Care" /> A persistent or worsening illness</label>
+              <label><input type="radio" name="care-guide" value="Diagnostics" /> I need help with a diagnostic test</label>
+            </fieldset>
+            <p class="triage-result" id="triage-result" aria-live="polite" role="status">Choose an option to see a suggested next step.</p>
+            <a class="button button-primary triage-book" id="triage-book" href="#appointment" hidden>Request this department</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="appointment-section section-pad" id="appointment">
+        <div class="appointment-pattern" aria-hidden="true"></div>
+        <div class="container appointment-grid">
+          <div class="appointment-copy">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span>WE’RE HERE TO HELP</div>
+            <h2>Let’s make your<br />health a <span>priority.</span></h2>
+            <p>Prepare a request in WhatsApp and send it to our team. Your visit is not booked until the hospital confirms it. For urgent help, our emergency line is always open.</p>
+            <a class="appointment-phone" href="tel:+919480787652"><span class="phone-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.3.55 3.6.55a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.19 2.46.55 3.58a1 1 0 0 1-.25 1.01z"/></svg></span><span><small>Need help right now?</small><strong>+91 94807 87652</strong></span></a>
+            <div class="appointment-assurance"><span>✓</span> Your information is kept private</div>
+          </div>
+
+          <form class="appointment-form" id="appointment-form">
+            <div class="form-heading"><span class="form-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18m-9 4v4m-2-2h4"/></svg></span><div><h3>Request an appointment</h3><p>We’ll call you to confirm your visit.</p></div></div>
+            <div class="form-row">
+              <label>Full name<input type="text" name="name" placeholder="Your full name" autocomplete="name" required /></label>
+              <label>Phone number<input type="tel" name="phone" placeholder="+91 00000 00000" autocomplete="tel" inputmode="tel" pattern="[+0-9\x28\x29\x20\x2D]{7,18}" required /></label>
+            </div>
+            <label>Department
+              <select name="department" id="appointment-department" required>
+                <option value="" disabled selected>Select a department</option>
+                <option value="General Medicine">General Medicine</option><option value="Pediatrics">Pediatrics</option><option value="Orthopedics">Orthopedics</option><option value="Acute Illness Care">Acute Illness Care</option><option value="Diagnostics">Diagnostics</option><option value="Emergency Care">Emergency Care</option>
+              </select>
+            </label>
+            <div class="form-row">
+              <label>Preferred date<input type="date" name="date" required /></label>
+              <label>Preferred time slot
+                <select name="time" required>
+                  <option value="" disabled selected>Select a time</option>
+                  <option value="Morning · 8:00 AM–12:00 PM">Morning · 8:00 AM–12:00 PM</option><option value="Afternoon · 12:00 PM–4:00 PM">Afternoon · 12:00 PM–4:00 PM</option><option value="Evening · 4:00 PM–8:00 PM">Evening · 4:00 PM–8:00 PM</option>
+                </select>
+              </label>
+            </div>
+            <button class="button button-primary form-submit" type="submit">Prepare WhatsApp request <span aria-hidden="true">→</span></button>
+            <p class="form-notice"><span aria-hidden="true">!</span> This creates a message for you to review and send. It does not book or confirm a visit. For emergencies, call our hotline.</p>
+            <p class="form-message" id="form-message" aria-live="polite" role="status"></p>
+            <a class="button button-whatsapp" id="whatsapp-request" href="#" target="_blank" rel="noopener noreferrer" aria-label="Open your appointment request in WhatsApp" hidden>Review and send in WhatsApp</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container footer-main">
+        <div class="footer-about">
+          <a class="brand footer-brand" href="#home">
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M20 6h8v14h14v8H28v14h-8V28H6v-8h14z"/><path class="brand-wave" d="M8 36c4-3 8-3 12 0s8 3 12 0 6-3 9-1v6H8z"/></svg></span>
+            <span class="brand-name">Shri Sai Ganga<span>HOSPITAL</span></span>
+          </a>
+          <p>Advanced healthcare with a human touch. Proud to care for our community, around the clock.</p>
+          <div class="footer-open"><span class="open-dot"></span> Open 24 hours, every day</div>
+        </div>
+        <div class="footer-contact">
+          <h2>Contact &amp; visit</h2>
+          <div class="contact-detail"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><p><strong>Our address</strong><span>Near Sai Creators, Chikkanayakanahalli,<br />Tumkur, Karnataka 572214</span></p></div>
+          <div class="contact-detail"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.3.55 3.6.55a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.19 2.46.55 3.58a1 1 0 0 1-.25 1.01z"/></svg></span><p><strong>Call us, any time</strong><a href="tel:+919480787652">+91 94807 87652</a></p></div>
+          <div class="contact-detail"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><p><strong>Operating hours</strong><span>Open 24 Hours · Monday to Sunday</span></p></div>
+        </div>
+        <div class="footer-verification" aria-label="Hospital information notice">
+          <h2>Trust &amp; transparency</h2>
+          <p>Ask our team for current doctor credentials, OPD schedules, registrations, and affiliations. We publish only information verified by the hospital.</p>
+          <a href="tel:+919480787652">Call to verify details · +91 94807 87652</a>
+        </div>
+        <div class="footer-map">
+          <div class="map-heading"><h2>Find your way here</h2><a href="https://www.google.com/maps/dir/?api=1&destination=Near+Sai+Creators%2C+Chikkanayakanahalli%2C+Tumkur%2C+Karnataka+572214&hl=kn" target="_blank" rel="noopener noreferrer">Get directions <span aria-hidden="true">↗</span></a></div>
+          <div class="map-frame">
+            <iframe title="Map to Shri Sai Ganga Hospital in Chikkanayakanahalli" src="https://maps.google.com/maps?q=Near%20Sai%20Creators%2C%20Chikkanayakanahalli%2C%20Tumkur%2C%20Karnataka%20572214&t=&z=14&ie=UTF8&iwloc=&hl=kn&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom"><div class="container"><span>© <span id="current-year"></span> Shri Sai Ganga Hospital. All rights reserved.</span><a href="#home">Back to top ↑</a><span>Made with care for our community <span class="heart">♥</span></span></div></div>
+    </footer>
+  </body>
+</html>
