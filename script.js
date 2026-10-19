@@ -2,12 +2,14 @@ const kannadaTranslations = {
   "Skip to content": "ವಿಷಯಕ್ಕೆ ತೆರಳಿ",
   "24/7 Emergency Care": "24/7 ತುರ್ತು ಆರೈಕೆ",
   "Call the emergency hotline at +91 94807 87652": "+91 94807 87652 ತುರ್ತು ಸಹಾಯವಾಣಿಗೆ ಕರೆಮಾಡಿ",
+  "Call now": "ಈಗ ಕರೆಮಾಡಿ",
   "Immediate help, any time": "ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ತಕ್ಷಣದ ನೆರವು",
   "Shri Sai Ganga Hospital home": "ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಆಸ್ಪತ್ರೆಯ ಮುಖಪುಟ",
   "Shri Sai Ganga": "ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ",
   HOSPITAL: "ಆಸ್ಪತ್ರೆ",
   "Toggle navigation": "ನ್ಯಾವಿಗೇಶನ್ ತೆರೆಯಿರಿ ಅಥವಾ ಮುಚ್ಚಿರಿ",
   "Main navigation": "ಮುಖ್ಯ ನ್ಯಾವಿಗೇಶನ್",
+  "Quick actions": "ತ್ವರಿತ ಕ್ರಮಗಳು",
   Home: "ಮುಖಪುಟ",
   "About Us": "ನಮ್ಮ ಬಗ್ಗೆ",
   Specialties: "ವೈದ್ಯಕೀಯ ವಿಭಾಗಗಳು",
@@ -152,8 +154,6 @@ const kannadaTranslations = {
   "Open 24 hours, every day": "ಪ್ರತಿದಿನ 24 ಗಂಟೆಯೂ ತೆರೆದಿರುತ್ತದೆ",
   "Contact & visit": "ಸಂಪರ್ಕ ಮತ್ತು ಭೇಟಿ",
   "Our address": "ನಮ್ಮ ವಿಳಾಸ",
-  "Near Sai Creators, Chikkanayakanahalli,": "ಸಾಯಿ ಕ್ರಿಯೇಟರ್ಸ್ ಹತ್ತಿರ, ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ,",
-  "Tumkur, Karnataka 572214": "ತುಮಕೂರು, ಕರ್ನಾಟಕ 572214",
   "Call us, any time": "ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಕರೆಮಾಡಿ",
   "Operating hours": "ಕಾರ್ಯನಿರ್ವಹಣೆಯ ಸಮಯ",
   "Open 24 Hours · Monday to Sunday": "24 ಗಂಟೆ ತೆರೆದಿರುತ್ತದೆ · ಸೋಮವಾರದಿಂದ ಭಾನುವಾರದವರೆಗೆ",
@@ -162,12 +162,14 @@ const kannadaTranslations = {
   "Call to verify details · +91 94807 87652": "ವಿವರಗಳನ್ನು ಖಚಿತಪಡಿಸಲು ಕರೆಮಾಡಿ · +91 94807 87652",
   "Find your way here": "ಆಸ್ಪತ್ರೆಗೆ ದಾರಿ",
   "Get directions": "ದಾರಿ ಪಡೆಯಿರಿ",
-  "Map to Shri Sai Ganga Hospital in Chikkanayakanahalli": "ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿಯ ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಆಸ್ಪತ್ರೆಗೆ ನಕ್ಷೆ",
+  "Map to Shri Sai Ganga Hi Tech Hospital (SSG) in Chikkanayakanahalli": "ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿಯ ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಹೈ ಟೆಕ್ ಆಸ್ಪತ್ರೆಗೆ ನಕ್ಷೆ",
+  "9JWH+W2P, Chikkanayakanahalli,": "9JWH+W2P, ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ,",
+  "Karnataka 572214": "ಕರ್ನಾಟಕ 572214",
   "Back to top ↑": "ಮೇಲಕ್ಕೆ ಹಿಂತಿರುಗಿ ↑",
   "Made with care for our community": "ನಮ್ಮ ಸಮುದಾಯದ ಕಾಳಜಿಯಿಂದ ರೂಪಿಸಲಾಗಿದೆ",
   "Shri Sai Ganga Hospital. All rights reserved.": "ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಆಸ್ಪತ್ರೆ. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.",
-  "Shri Sai Ganga Hospital | Care, Around the Clock": "ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಆಸ್ಪತ್ರೆ | ಹಗಲು-ರಾತ್ರಿ ಆರೈಕೆ",
-  "Shri Sai Ganga Hospital in Chikkanayakanahalli offers round-the-clock emergency support, expert physicians, and patient-first care.": "ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿಯ ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಆಸ್ಪತ್ರೆಯಲ್ಲಿ ದಿನದ 24 ಗಂಟೆಯೂ ತುರ್ತು ನೆರವು, ಪರಿಣತ ವೈದ್ಯರು ಮತ್ತು ರೋಗಿ-ಕೇಂದ್ರಿತ ಆರೈಕೆ ಲಭ್ಯ."
+  "Shri Sai Ganga Hi Tech Hospital (SSG) | Chikkanayakanahalli": "ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಹೈ ಟೆಕ್ ಆಸ್ಪತ್ರೆ (SSG) | ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ",
+  "Shri Sai Ganga Hi Tech Hospital (SSG), Chikkanayakanahalli. Check 24-hour care, request an appointment, call +91 94807 87652 or get directions.": "ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿಯ ಶ್ರೀ ಸಾಯಿ ಗಂಗಾ ಹೈ ಟೆಕ್ ಆಸ್ಪತ್ರೆ (SSG). 24 ಗಂಟೆಗಳ ಆರೈಕೆ, ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್, ದೂರವಾಣಿ ಮತ್ತು ದಾರಿ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಿರಿ."
 };
 
 const kannadaDepartmentNames = {
@@ -202,14 +204,18 @@ document.querySelectorAll("*").forEach((element) => {
 const applyLanguage = (language) => {
   const useKannada = language === "kn";
   document.documentElement.lang = language;
+  const pageTitle = "Shri Sai Ganga Hi Tech Hospital (SSG) | Chikkanayakanahalli";
+  const pageDescription = "Shri Sai Ganga Hi Tech Hospital (SSG), Chikkanayakanahalli. Check 24-hour care, request an appointment, call +91 94807 87652 or get directions.";
   document.title = useKannada
-    ? kannadaTranslations["Shri Sai Ganga Hospital | Care, Around the Clock"]
-    : "Shri Sai Ganga Hospital | Care, Around the Clock";
+    ? kannadaTranslations[pageTitle]
+    : pageTitle;
+  document.querySelector('meta[property="og:title"]').content = document.title;
 
   const description = document.querySelector('meta[name="description"]');
   description.content = useKannada
-    ? kannadaTranslations["Shri Sai Ganga Hospital in Chikkanayakanahalli offers round-the-clock emergency support, expert physicians, and patient-first care."]
-    : "Shri Sai Ganga Hospital in Chikkanayakanahalli offers round-the-clock emergency support, expert physicians, and patient-first care.";
+    ? kannadaTranslations[pageDescription]
+    : pageDescription;
+  document.querySelector('meta[property="og:description"]').content = description.content;
 
   originalTextNodes.forEach((originalText, textNode) => {
     const trimmedText = originalText.trim();
