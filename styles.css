@@ -397,15 +397,16 @@ body { color: var(--ink); font-size: 16px; }
 .nav-wrap { min-height: 84px; }
 .brand { gap: 13px; }
 .brand-mark {
-  width: 58px;
-  height: 58px;
+  width: 66px;
+  height: 66px;
+  flex: 0 0 66px;
   overflow: hidden;
   padding: 3px;
   background: #f7f8f4;
   border: 1px solid #e2e8e2;
   border-radius: 50%;
 }
-.brand-mark img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.brand-mark img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; }
 .brand-name { font-size: 16px; }
 .brand-name span { font-size: 9px; }
 .primary-nav { gap: clamp(17px, 2.3vw, 32px); }
@@ -534,7 +535,7 @@ body { color: var(--ink); font-size: 16px; }
   html { scroll-padding-top: 100px; }
   .container { width: calc(100% - 40px); }
   .nav-wrap { min-height: 72px; }
-  .brand-mark { width: 49px; height: 49px; }
+  .brand-mark { width: 56px; height: 56px; flex-basis: 56px; }
   .brand-name { font-size: 14px; }
   .primary-nav { padding: 10px 20px 20px; }
   .primary-nav > a:not(.button) { padding-block: 14px; font-size: 15px; }
@@ -595,7 +596,7 @@ body { color: var(--ink); font-size: 16px; }
   .container { width: calc(100% - 34px); }
   .nav-wrap { min-height: 66px; }
   .brand { gap: 9px; }
-  .brand-mark { width: 43px; height: 43px; padding: 2px; }
+  .brand-mark { width: 50px; height: 50px; flex-basis: 50px; padding: 2px; }
   .brand-name { font-size: 13px; }
   .brand-name span { font-size: 8px; }
   .emergency-inner p { font-size: 10px; }
